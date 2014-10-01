@@ -1,0 +1,29 @@
+.voteX {
+    width:600px;
+}
+
+.voteX ul.answers {
+    width:90%;
+    list-style: none;
+}
+
+.voteX ul.answers li.bar {
+    width:100%;
+    background: lightgray;
+    border:1px solid black;
+    position: relative;
+    height: 10px;
+}
+
+.voteX ul.answers li.bar span {
+    position: absolute;
+    right:-40px;
+    top:-5px;
+}
+
+.voteX ul.answers li.bar div.fill {
+    top:1px;
+    left:1px;
+    position: absolute;
+    height: 8px;
+}
